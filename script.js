@@ -14,21 +14,7 @@ form.addEventListener("click", (e) => {
 button.addEventListener("click", () => {
     const input = document.querySelector("input").value;
     const select = document.querySelector("select").value;
-    data(select);
+    document.querySelector("div").className = '';
+    div.classList.add(`${select}`);
     document.getElementById("id").style = `background-color: ${input}`;
 });
-
-function data(params) {
-    if (params === "value1") {
-        document.querySelector("div").className = '';
-        div.classList.add("square");
-    }
-    if (params === "value2") {
-        document.querySelector("div").className = '';
-        div.classList.add("rectangle");
-    }
-    if (params === "value3") {
-        document.querySelector("div").className = '';
-        div.classList.add("circle");
-    }
-};
