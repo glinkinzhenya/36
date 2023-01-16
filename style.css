@@ -1,0 +1,32 @@
+
+/* div {
+  background-color: black;
+} */
+
+.square {
+  width: 300px;
+  height: 300px;
+  
+}
+
+.circle {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+}
+
+.rectangle {
+  width: 600px;
+  height: 300px;
+}
+
+body {
+display: flex;
+align-items: center;
+flex-direction: column;
+}
+
+#id {
+  background-color: brown;
+}
+
