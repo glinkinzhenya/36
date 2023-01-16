@@ -1,12 +1,6 @@
-
-/* div {
-  background-color: black;
-} */
-
 .square {
   width: 300px;
   height: 300px;
-  
 }
 
 .circle {
@@ -16,8 +10,15 @@
 }
 
 .rectangle {
-  width: 600px;
+  width: 500px;
   height: 300px;
+}
+
+.figure {
+  width: 100px;
+  height: 200px;
+  background-color: black;
+  border-radius: 100px;
 }
 
 body {
@@ -25,8 +26,3 @@ display: flex;
 align-items: center;
 flex-direction: column;
 }
-
-#id {
-  background-color: brown;
-}
-
