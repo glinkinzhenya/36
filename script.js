@@ -4,7 +4,6 @@
 // input для выбора цвета.При его изменении меняется цвет фигуры
 
 const div = document.querySelector("div");
-const form = document.querySelector("form");
 const button = document.querySelector("button");
 
 button.addEventListener("click", (e) => {
