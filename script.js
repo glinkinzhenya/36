@@ -7,14 +7,11 @@ const div = document.querySelector("div");
 const form = document.querySelector("form");
 const button = document.querySelector("button");
 
-form.addEventListener("click", (e) => {
+button.addEventListener("click", (e) => {
     e.preventDefault();
-});
-
-button.addEventListener("click", () => {
     const input = document.querySelector("input").value;
     const select = document.querySelector("select").value;
-    document.querySelector("div").className = '';
+    div.className = '';
     div.classList.add(`${select}`);
-    document.getElementById("id").style = `background-color: ${input}`;
+    div.style = `background-color: ${input}`;
 });
